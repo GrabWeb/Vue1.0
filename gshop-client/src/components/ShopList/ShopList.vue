@@ -192,7 +192,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  /*@import "../../common/stylus/mixins.styl"*/
+  @import "../../common/stylus/mixins.styl"
   .msite_shop_list
     top-border-1px(#e4e4e4)
     margin-top 10px

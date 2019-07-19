@@ -8,9 +8,12 @@ import router from './router'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-import '../node_modules/mint-ui/lib/style.css'
+import '../node_modules/mint-ui/lib/style.min.css'
 import Mint from 'mint-ui';
 Vue.use(Mint);
+
+import axios from 'axios'
+Vue.prototype.$axios = axios
 
 new Vue({
     el: '#app',

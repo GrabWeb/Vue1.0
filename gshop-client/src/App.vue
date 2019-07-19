@@ -1,6 +1,6 @@
 <template>
 	<div>
-    <router-view/>
+    <router-view></router-view>
     <FooterGuide v-show="$route.meta.show"></FooterGuide>
 	</div>
 </template>

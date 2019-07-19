@@ -126,7 +126,7 @@
       </div>
     </nav>
     <!--首页附近商家-->
-    <ShopList/>
+    <ShopList></ShopList>
   </section>
 </template>
 
@@ -157,7 +157,7 @@
       components:{
         HeaderTop,
         ShopList
-      }
+      },
     }
 </script>
 
